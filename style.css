@@ -1,0 +1,98 @@
+
+.nav_link{
+    color: #0F35FD;
+}
+body{
+    background-color: #F3F2F5;
+    font-family: 'Roboto', sans-serif;
+}
+.overall{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+/* flex-sm-column flex-lg-row */
+#btn{
+    border-color: #0F35FD;
+    background-color: white;
+    color: #0F35FD;
+    border-radius: 5px;
+    width: 110px;
+    height: 38px;
+    left: 387px;
+    top: 646px;
+}
+#btn1{
+    border-color: #0F35FD;
+    background-color: #0F35FD;
+    color: white;
+    border-radius: 5px;
+    height: 38px;
+    width: 110px;
+    left: 189px;
+    top: 646px;
+}
+.image img{
+    margin-left: 20px;
+    width: 100%;
+    height: 190px;
+    align-items: center;
+}
+h3{
+        padding-top: 100px;
+}
+.no2 h3{
+    padding: 30px;
+    color: #0F35FD;
+    text-align: center;
+}
+.card-b{
+    background-color: #0F35FD;
+    margin-bottom: 50px;
+}
+.no2{
+    background-image: url("./image/hand-painted-watercolor-background-with-sky-and-clouds-shape\ 1.png");
+}
+.products{
+    margin: auto;
+}
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    color: #0F35FD;
+}
+    .form{
+        width: 50%;
+        margin-left: 70px;
+    }
+@media screen and (max-width: 600px)
+{
+    .overall{
+        flex-direction: column-reverse;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .image img{
+        margin-left: 0;
+        width: 100%;
+        height: 190px;
+        align-items: none;
+    }
+    .text{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .form{
+        width: 300px;
+        margin-left: 10px;
+    }
+    .card-b{
+        margin-bottom: 8px;
+        height: 150px;
+    }
+}
+
+
